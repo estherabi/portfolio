@@ -118,18 +118,24 @@ p{
     color: #ff4a49;
     text-decoration: none;
 }
-#proyectos footer{
+#proyectos footer, #sobreMi footer{
     color:#ff4a49;
 }
-#proyectos footer a{ 
+#proyectos footer a, #sobreMi footer a{ 
     color: #ff4a49;
 }
-#proyectos footer .fa-github {
+#proyectos footer .fa-github, #sobreMi footer .fa-github {
     font-size: 30px;
     color: white;
     background-color: #ff4a49;
+  
 }
-#proyectos footer .fa-linkedin-in {
+#sobreMi footer .fa-github{
+    color: #ff4a49;
+    background-color: white;
+    border-radius: 15px;
+}
+#proyectos footer .fa-linkedin-in, #sobreMi footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -177,8 +183,9 @@ p{
 }
 
 .foto-perfil{
-    border-radius:600px;
+    border-radius:100px;
     height:300px;
+    
     
 }
 #stack-tecnologico{
@@ -213,7 +220,7 @@ p{
 }
 #experiencia-laboral h3{
     font-size: 18px;
-    color:#6a6a6a
+    color:#6a6a6a;
     font-weight: 600;
 
 }
@@ -222,7 +229,7 @@ p{
     color: #370a6d;
   
 
-}ç
+}
 #experiencia-laboral h5{
     font-size: 14px;
     color: #6a6a6a
@@ -241,6 +248,7 @@ p{
 }
 .imagen-cat{
     height:75px
+
 }
 #formacion-academica h2{
     font-size: 24px;
@@ -250,9 +258,9 @@ p{
 }
 #formacion-academica h3{
     font-size: 18px;
-    color:#6a6a6a
+    color:#6a6a6a;
     font-weight: 600;
-
+    
 }
 #formacion-academica h4{
     font-size: 17px;
@@ -270,9 +278,51 @@ p{
 .De-Pc{
     height: 100px;
 }
-#desarrollo-profesional h2{
+#cursos h2{
     font-size: 24px;
     color:#e20000;
     font-weight: 400;
 
+}
+#cursos h3{
+    font-size: 18px;
+    color:#6a6a6a;
+    font-weight: 600;
+    
+}
+#cursos h4{
+    font-size: 17px;
+    color:#e20000
+  
+
+}
+#cursos h5{
+    font-size: 14px;
+    color: #6a6a6a
+
+}
+#idiomas {
+    background-color: #eee;
+
+}
+.idioma{
+    color: white;
+    background-color: #370a6d;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+.bg-white{
+    border-radius: 15px;
+
+}
+.fa-comment-alt:before {
+    font-size: 80px;
+    color: white;
+    background-color: ;
+
+}
+.fa-star{
+    font-size: 80px;
+    color: white;
 }
